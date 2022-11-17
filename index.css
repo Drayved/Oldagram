@@ -1,0 +1,123 @@
+/* Main content */
+
+body{
+    border: 8px solid black;
+    border-radius: 20px;
+    height:max-content;
+    margin:auto;
+}
+
+html, body {
+    margin: 0;
+    padding: 0;
+    width:600px;
+    margin:auto;
+}
+
+.container{
+    display: inline-block;
+    width:100%;
+    margin-top: -15px;
+}
+
+/* images*/
+
+.header-imgs{
+    border-bottom: 1px solid rgba(154, 164, 151, 0.604);
+    padding-bottom: 20px;
+    display: flex;
+}
+
+.logo{
+    width:200px;
+    display:flex;
+    margin-left:20px;
+    margin-top: 30px;
+}
+
+.user-img{
+    width: 60px;
+    height: 60px;
+    border-radius: 50px;
+    display:flex;
+    margin-left:280px;
+    margin-top: 40px;
+    top:50px;
+    right:180px;
+}
+
+.main-img{
+    margin: 0;
+    width: 100%;
+}
+
+.avatar{
+    width: 50px;
+    border-radius: 50px;
+    margin: 70px 0px 0px 20px;
+}
+
+/*oldagram images/buttons*/
+
+.oldagram-btns{
+    display: flex;
+    justify-content: space-around;
+    margin-right:360px;
+    padding: 0;
+    border:none;
+    background-color: inherit;
+    position: absolute;
+    padding: 20px 160px 0 0;
+    margin-left: 10px;
+}
+
+.olda-btns{
+    border: none;
+    background-color: white;
+    width: 40px; 
+}
+
+.middle-btn{
+    padding: 0 10px;
+    outline: none;
+    background: transparent;
+    border: none;
+}
+
+.olda-btns:hover {
+    transform: scale(1.1);
+    cursor: pointer;
+}
+
+
+/* text */
+.container-text{
+    display: inline-block;
+    margin-left: 15px;
+}
+
+h1{
+    font-weight: bolder;
+    font-size: 23px;
+}
+
+h3{
+    font-weight: normal;
+    margin-top: -10px;
+    font-size: 22px;   
+}
+
+.footer{
+    padding: 90px 0px 10px 15px;
+    font-weight: bold;
+    font-size: 24px;
+    padding-bottom:0px ;
+}
+
+.likes{
+    margin: -10px 0px;
+}
+
+.comment{
+    font-weight: normal;
+}
